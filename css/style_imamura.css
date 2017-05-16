@@ -1,0 +1,115 @@
+.jpra-banner-leftbox{
+	position: relative;
+    width: 400px;
+}
+@media (max-width: 1200px){
+    .jpra-banner-leftbox {
+        position: relative;
+        max-width: 400px;
+        width: 100%;
+        height: 530px;
+        margin: 40px 0 0 0;
+        color: #fff;
+        text-align: center;
+        overflow: hidden;
+    }
+}
+@media (max-width: 992px){
+    .jpra-banner-leftbox {
+        max-width: 400px;
+        width: 100%;
+        padding: 0;
+        margin: 20px auto;
+    }
+}
+.jpra-banner-left{
+	height: 350px;
+	background: #367da2;
+	border-top: none;
+	box-shadow: 0px 5px 3px -3px rgba(0,0,0,0.6);
+    -webkit-box-shadow: 0px 7px 3px -3px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 7px 3px -3px rgba(0,0,0,0.6);
+
+}
+.figure_tit01{
+	width: 330px;
+    height: 60px;
+    margin: 300px auto 0px;
+    font-size: 22px;
+    font-weight: 200;
+}
+.figure_tit02{
+	color: #000;
+    text-align: left;
+}
+.jpra-banner-left2{
+    max-width: 400px;
+    width: 100%;
+    margin: 20px 0 0 20px;
+}
+@media (max-width: 480px){
+	.jpra-banner-left2{
+       width: 100%;
+   }
+   .figure_tit01{
+      width: 300px;
+      font-size: 20px;
+  }
+}
+@media (max-width: 992px){
+	.jpra-banner-left2{
+       margin: 20px auto;
+   }
+}
+.grid1 .main-tit {
+    font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    margin-top: 0px;
+}
+.grid1 .lead {
+    font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+    font-size: 42px;
+    font-weight: 900;
+    margin-top: 0px;
+}
+.left-border-info img {
+    vertical-align: sub;
+}
+@media (max-width: 480px){
+    .left-border-info p {
+        color: #333;
+        font-size: 34px;
+        margin: 0;
+    }
+    .left-border-info img {
+        width: 120%;
+        vertical-align: text-top;
+        padding-right: 6px;
+    }
+    th {
+        vertical-align: baseline;
+        width: 20px;
+    }
+}
+.first1 th{
+    padding-right: 3px;
+}
+.jpra-instructor-heading img{
+    border: 3px solid #88888a;
+}
+
+.inst-img{
+    max-width:200px;
+    max-height:200px;
+}
+
+@media (max-width: 480px){
+    .inst-img{
+        width:100%;
+        height:auto;
+    }
+    .inst-box{
+        padding: 3px;
+    }
+}
