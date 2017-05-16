@@ -2,6 +2,14 @@
 	position: relative;
     width: 400px;
 }
+.jpra-banner-left img{
+    position: absolute;
+    top: 0;
+    left: -60px;
+    display: block;
+    width: 530px;
+    height: 300px;
+}
 @media (max-width: 1200px){
     .jpra-banner-leftbox {
         position: relative;
@@ -65,12 +73,14 @@
     font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
     font-size: 40px;
     font-weight: 900;
+    color: rgb(14, 93, 135);
     margin-top: 0px;
 }
 .grid1 .lead {
     font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
     font-size: 42px;
     font-weight: 900;
+    color: rgb(14, 93, 135);
     margin-top: 0px;
 }
 .left-border-info img {
@@ -92,9 +102,27 @@
         width: 20px;
     }
 }
-.first1 th{
-    padding-right: 3px;
+
+.grid2 ul{
+    list-style: none;
+    padding-left: 0;
 }
+.grid2 li{
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.grid2 img{
+    margin-right: 5px;
+}
+@media (max-width: 480px){
+    .grid2 img{
+        width: 20px;
+        height: auto;
+        margin-right: 0;
+    }
+}
+
+
 .jpra-instructor-heading img{
     border: 3px solid #88888a;
 }
