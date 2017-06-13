@@ -176,3 +176,10 @@
     -o-border-radius: 6px;
     -ms-border-radius: 6px;
 }
+
+/*20170613追記　画像を丸く切り抜く*/
+.inst-box img{
+     border-radius: 50%;
+    -moz-border-image: border-radius: 50%;
+    -webkit-border-image: border-radius: 50%;
+}
